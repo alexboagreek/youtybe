@@ -1,0 +1,30 @@
+.footer {
+  padding: 48px 0px;
+  background: #FF6A00 url('../assets/img/footer-bg.png') center/cover;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link {
+}
+.footer__logo {
+  width: 360px;
+  height: 48px;
+}
+
+.footer__developers {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer__developers-item {
+  margin-bottom: 9px;
+}
+
+.footer__copyright {
+  color: #fff;
+}
