@@ -1,2 +1,8 @@
 @import 'styles/normalize.css';
 @import 'styles/default.css';
+@import 'styles/fonts.css';
+@import 'styles/header.css';
+@import 'styles/hero.css';
+@import 'styles/search.css';
+@import 'styles/list.css';
+@import 'styles/video.css';

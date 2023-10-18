@@ -1,0 +1,34 @@
+
+.search__form {
+  position: relative;
+  width: 100%;
+}
+.search__input {
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #FB9953;
+  padding: 10px 124px 10px 24px;
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+} 
+
+.search__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px 16px;
+  border-radius: 40px;
+  background: #ff6a00;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+
+.search__icon {
+  width: 20px;
+  height: 20px;
+}
