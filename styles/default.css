@@ -25,6 +25,12 @@ body {
   color: #292D32;
   background-color: #fff;
   line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 img,
@@ -76,7 +82,9 @@ iframe {
 }
 
 .container {
-  max-width: 1320px;
-  padding: 0 30px;
+  --container-width: 1260px;
+  --container-offset: 30px;
+  max-width: calc(var(--container-width) + var(--container-offset) * 2);
+  padding: 0 var(--container-offset);
   margin: 0 auto;
 }
